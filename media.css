@@ -1,0 +1,13 @@
+@media (max-width: 1440px) {
+}
+
+
+@media (max-width: 1200px) {
+    .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .block3 {
+        display: none;
+    }
+}

@@ -1,27 +1,32 @@
-h1 {
-    color: #a5276f;
-    margin: 0 auto;
-    text-align: center;
+.block1, .block2, .block3, .block4, .block5 {
+    width: 100px;
+    height: 100px;
 }
-p {
-    color: rgb(255, 0, 50);
-    font-size: 46px;
-    font-family: 'Patrick Hand', cursive;
-    text-align: center;
-    font-weight: 900;
+
+.block1 {
+    background-color: black;
 }
-.htmlContainer {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWyXl_ES0Jwg7dn_W559ya9pk8X_8B_e9IEQ&usqp=CAU");    
-    background-size: cover;
-    width: 80%;
-    height: 100%;
-    padding: 50px;
-    margin: 0 auto;
-    margin-bottom: 50px;
+
+.block2 {
+    background-color: red;
 }
-.cssContainer {
-    background-color: darkmagenta;
-    width: 500px;
-    margin: 0 auto;
-    margin-top: 50px;
+
+.block3 {
+    background-color: green;
+}
+
+.block4 {
+    background-color: yellow;
+}
+
+.block5 {
+    background-color: blue;
+}
+
+.wrapper {
+    width: 100%;
+    gap: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
